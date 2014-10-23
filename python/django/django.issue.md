@@ -46,6 +46,12 @@ south
        ./manage.py schemamigration --auto myapp
        ./manage.py migrate newapp
 
+备注：在django 1.7中 已经可以同步字段，不需要south
+    ./manage.py makemigrations
+    ./manage.py migrate
+        这时如果有新添加的字段且没有默认值会提示输入默认值还是放弃修改，
+    所以定义model时最好加上默认值
+
 curl测试api
 ---
     curl -H 'Accept: application/json; indent=4' -u admin:password

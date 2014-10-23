@@ -1,0 +1,17 @@
+[user]
+	name = liweilong
+	email = j_liweilong@163.com
+[credential]
+	helper = store
+[core]
+	editor = vim
+[alias]
+	alog = log --all --decorate --graph --color
+	st = status
+	co = checkout
+	cm = commit
+  aa = add --all
+	stash-unapply = !git stash show -p | git apply -R
+	br = branch
+[push]
+	default = matching
