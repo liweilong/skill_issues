@@ -47,8 +47,7 @@ JAVA根据用处的不同，定义了两类异常
 8. 跟JAVA其它类一样，不要定义多余的方法和变量。(不会使用的变量，就不要定义,spring的BadSqlGrammarException.getSql() 就是多余的)
 9. 不要使用异常来控制流程 
 
-相关链接：
-[Java异常设计原则](http://tech.e800.com.cn/articles/2009/79/1247105040929_1.html)
-[异常设计](http://www.cnblogs.com/JavaVillage/articles/384483.html)
+相关链接：  
+[Java异常设计原则](http://tech.e800.com.cn/articles/2009/79/1247105040929_1.html)  
+[异常设计](http://www.cnblogs.com/JavaVillage/articles/384483.html)  
 [Java异常处理最佳实践](http://tech.e800.com.cn/articles/2009/79/1247105040929_1.html)
-  
